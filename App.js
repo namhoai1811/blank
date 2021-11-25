@@ -1,21 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react';
-import { AppRegistry, StyleSheet, Text, View } from 'react-native';
+import { AppRegistry, Image,StyleSheet, Text, View } from 'react-native';
 
-import Login from './Components/Login';
-import Hello from './Components/Hello';
 
-import Cate from './Components/Cate';
-import Demo from './Components/demo';
+import Greeting from './Components/Greeting';
 
 export default class App  extends  Component {
   render(){
     return (
       <View style={styles.container}>
-        <Text>999</Text>
-        <Hello></Hello>
-        <Cate></Cate>
-        <Demo></Demo>
+      <Greeting/>
       </View>
     );
   }
