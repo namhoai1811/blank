@@ -2,21 +2,21 @@ import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Text, View } from 'react-native';
 
-// import Login from './Components/Login';
+import Login from './Components/Login';
 import Hello from './Components/Hello';
 
+import Cate from './Components/Cate';
+import Demo from './Components/demo';
 
 export default class App  extends  Component {
   render(){
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working 12 on your app! ddffffd</Text>
-        <StatusBar style="auto" />
-        <Text>dddddddddddddddd</Text>
-         <Hello></Hello>
-         {/* <Login></Login> */}
+        <Text>999</Text>
+        <Hello></Hello>
+        <Cate></Cate>
+        <Demo></Demo>
       </View>
-
     );
   }
   

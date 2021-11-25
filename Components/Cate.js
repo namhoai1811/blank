@@ -5,9 +5,7 @@ import { AppRegistry, StyleSheet, Text, View } from 'react-native';
 export default class Cate extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+            <View>sss</View>
         );
     }
 }
